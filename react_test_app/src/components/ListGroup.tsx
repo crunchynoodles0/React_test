@@ -45,7 +45,7 @@ function ListGroup(props: Props) {
               } //Making the lines appear to seperate each item
               key={item} // Making a key for each time to get that item from say an api call of something like that
               onClick={() => {
-                setSelectedIndex(index); // Making a method to track which item is clicked on. Need to learn how to handle multiple functions
+                setSelectedIndex(index); // Making a method to track which item is clicked on.
                 props.onSelectItem(item); //Sends information back to the app that something has been clicked
               }}
             >
